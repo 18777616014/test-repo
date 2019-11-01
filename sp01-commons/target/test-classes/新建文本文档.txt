@@ -1,0 +1,19 @@
+[{"id":1, "name":"abc", "number":23}]
+
+eureka
+
+
+//注册中心
+服务名称	服务地址
+item‐service	http://localhost:8001
+
+
+Ribbo 是对 RestTemplate 的增强
+RestTemplate 类似 httpclient
+
+
+老师的github
+https://github.com/benwang6
+
+
+ab -n 20000 -c 50 http://localhost:3001/item-service/35
